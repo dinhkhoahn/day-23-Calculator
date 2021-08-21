@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #394655;
+    --secondary-color: #425062;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.364;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 282px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    border: 2px solid #323A44;
+    width: 68px;
+    height: 68px;
+    overflow: hidden;
+    padding-top: 14px;
+    background-color: var(--primary-color);
+}
+
+.border-right-0 {
+    border-right: 0px solid #323A44 !important;
+}
+
+.border-bottom-0 {
+    border-bottom: 0px solid #323A44 !important;
+}
+
+.monitor {
+    width: 204px !important;
+    padding-top: 0px !important;
+}
+
+.monitor div {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.monitor-above {
+    font-size: 15px;
+}
+
+.monitor-above span {
+    font-size: 15px;
+}
+
+div {
+    cursor: pointer;
+}
+
+.monitor div {
+    cursor: initial;
+}
+
+.number {
+    background-color: var(--secondary-color) !important;
+}
+
+.dot {
+    background-color: var(--primary-color) !important;
+}
+

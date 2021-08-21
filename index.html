@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="monitor border-bottom-0 border-right-0">
+                <div class="monitor-above"><span class="number-one">1</span> <span class="show-operator">+</span> </div>
+                <div class="monitor-below number-two">1234</div>
+            </div>
+            <div id="*" class="operator border-bottom-0">*</div>
+        </div>
+
+        <div class="row">
+            <div id="1" class="number border-right-0 border-bottom-0">1</div>
+            <div id="2" class="number border-right-0 border-bottom-0">2</div>
+            <div id="3" class="number border-right-0 border-bottom-0">3</div>
+            <div id="/" class="operator border-bottom-0">/</div>
+        </div>
+
+        <div class="row">
+            <div id="4" class="number border-right-0 border-bottom-0">4</div>
+            <div id="5" class="number border-right-0 border-bottom-0">5</div>
+            <div id="6" class="number border-right-0 border-bottom-0">6</div>
+            <div id="+" class="operator border-bottom-0">+</div>
+        </div>
+
+        <div class="row">
+            <div id="7" class="number border-right-0 border-bottom-0">7</div>
+            <div id="8" class="number border-right-0 border-bottom-0">8</div>
+            <div id="9" class="number border-right-0 border-bottom-0">9</div>
+            <div id="-" class="operator border-bottom-0">-</div>
+        </div>
+        
+        <div class="row">
+            <div id="c" class="reset border-right-0">C</div>
+            <div id="0" class="number border-right-0">0</div>
+            <div id="." class="number dot border-right-0">.</div>
+            <div id="=" class="calculation">=</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
